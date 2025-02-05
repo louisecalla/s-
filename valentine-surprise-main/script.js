@@ -267,9 +267,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 `;
 		    
-                });
-            });
-
             noBtn.addEventListener("click", function () {
 				content.innerHTML = "<div style='text-align: center;'>" +
 					"<img src='pictures/sad.gif' alt='Sad GIF' style='display: block; margin: 0 auto;'>" +
