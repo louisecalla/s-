@@ -267,9 +267,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 `;
 
-                // Surprise button functionality
-                document.getElementById("surpriseBtn").addEventListener("click", function () {
-                    content.innerHTML = `
+               
 						<div style="text-align: center; margin-top: 20px;">
 							<img src="pictures/itinerary.png" alt="Itinerary Image" style="width: 70%; max-width: 500px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
 							<br>
