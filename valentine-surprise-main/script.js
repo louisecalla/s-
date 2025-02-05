@@ -266,24 +266,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         <button id="surpriseBtn" style="padding: 12px 25px; font-size: 18px; background: #ffa500; color: white; border: none; cursor: pointer; border-radius: 5px;">Click for a Surprise</button>
                     </div>
                 `;
-
-                // Surprise button functionality
-                document.getElementById("surpriseBtn").addEventListener("click", function () {
-                    content.innerHTML = `
-						<div style="text-align: center; margin-top: 20px;">
-							<img src="pictures/itinerary.png" alt="Itinerary Image" style="width: 70%; max-width: 500px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); margin-bottom: 20px;">
-							<br>
-							<a id="downloadBtn" href="pictures/itinerary.png" download style="display: inline-block; padding: 12px 25px; background: #FF6863; color: white; border-radius: 5px; text-decoration: none; font-size: 18px; font-weight: bold; transition: 0.3s;">Download Itinerary</a>
-						</div>
-					`;
-                });
-            });
-
-            noBtn.addEventListener("click", function () {
-				content.innerHTML = "<div style='text-align: center;'>" +
-					"<img src='pictures/sad.gif' alt='Sad GIF' style='display: block; margin: 0 auto;'>" +
-					"<p style='font-size: 24px;'>Next time nalang :(</p>" +
-					"</div>";
 			});
         });
     });
