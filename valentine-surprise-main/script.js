@@ -261,10 +261,6 @@ document.addEventListener("DOMContentLoaded", function () {
 						<img src="pictures/love.gif" alt="Love GIF" style="display: block; margin: 0 auto;">
 						<p style="font-size: 24px;">Yaaaaaay! I love you!</p>
 					</div>
-				
-                    <div style="text-align: center; margin-top: 50px;">
-                        <button id="surpriseBtn" style="padding: 12px 25px; font-size: 18px; background: #ffa500; color: white; border: none; cursor: pointer; border-radius: 5px;">Click for a Surprise</button>
-                    </div>
                 `;
 			});
         });
